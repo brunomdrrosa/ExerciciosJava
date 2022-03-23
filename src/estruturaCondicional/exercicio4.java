@@ -11,11 +11,11 @@ public class exercicio4 {
 		int horaFinal = sc.nextInt();
 		
 		int duracao;
-		if (horaInicial < horaFinal) {
-			duracao = horaFinal - horaInicial;
+		if (horaInicial > horaFinal) {
+			duracao = 24 - horaInicial + horaFinal;
 		}
 		else {
-			duracao = 24 - horaInicial + horaFinal;
+			duracao = horaFinal - horaInicial;
 		}
 		
 		System.out.println("O JOGO DUROU " + duracao + " HORA(S)");
