@@ -1,4 +1,4 @@
-package registroFuncionarios;
+package arraysListas.registroFuncionarios;
 
 import java.util.ArrayList;
 import java.util.List;

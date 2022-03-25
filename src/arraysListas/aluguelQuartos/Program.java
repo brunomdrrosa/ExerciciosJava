@@ -1,4 +1,4 @@
-package aluguelQuartos;
+package arraysListas.aluguelQuartos;
 
 import java.util.Scanner;
 
